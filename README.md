@@ -76,5 +76,7 @@ enjoy!
 # Credits
 This script was (in part) inspired by [This repository](https://github.com/tigerblue77/Dell_iDRAC_fan_controller_Docker/tree/master) by [@tigetblue77](https://github.com/tigerblue77)
 
+This repository is forked from [this repository](https://github.com/Olaren15/dell-fan-control-nvidia) with the implementation of a non-linear control algorithm.
+
 ---
 Made with ❤️ by a friend of Blåhaj
