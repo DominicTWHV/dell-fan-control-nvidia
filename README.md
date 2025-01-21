@@ -6,6 +6,10 @@ Manually control a dell server's fan speed based on the nvidia gpu temperature
 Based on the default temperature/fan speed values given in the file
 ![curve](https://github.com/DominicTWHV/dell-fan-control-nvidia/blob/main/fan_curve.jpg)
 
+# Disclaimer:
+
+This repository has been tested to work on a dual GPU system as described below. I take no responsibility for damages caused by improper configuration. You acknowledge this by continuing.
+
 # Why did you make this?
 I have an Nvidia P4 in my dell R430 and the server does not adjust its fan speed based on the gpu temperature. This means that after a few minutes of use the card will overheat and my system will reboot :(
 
