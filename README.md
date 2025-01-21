@@ -31,6 +31,9 @@ PE R720 with dual tesla P100 (idrac version 2.65.65.65)
 
 You can find a list of IPMI commands to test it [here](https://www.dell.com/support/manuals/en-ca/open-server-manager/open_server_manager_2.0/ipmi-commands?guid=guid-0a26239a-fdd7-4d06-b4f1-be8e59d6ca7b)
 
+**It is highly recommended that you test with a synthetic load while monitoring performance and temperature before letting this run by itself.** 
+Example stress testing tool to use [here](https://lambdalabs.com/blog/perform-gpu-and-cpu-stress-testing-on-linux)
+
 # How to use
 
 **Cloning:**
