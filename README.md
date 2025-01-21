@@ -39,7 +39,7 @@ Example stress testing tool to use [here](https://lambdalabs.com/blog/perform-gp
 
 **Cloning:**
 ```bash
-git clone https://github.com/Olaren15/dell-fan-control-nvidia.git
+git clone https://github.com/DominicTWHV/dell-fan-control-nvidia.git
 cd dell-fan-control-nvidia
 sudo chmod +x *.sh
 nano *.sh
