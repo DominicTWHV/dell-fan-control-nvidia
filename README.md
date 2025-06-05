@@ -1,5 +1,5 @@
 # dell-fan-control-nvidia
-Manually control a dell server's fan speed based on the nvidia gpu temperature
+Manually control a dell server's fan speed based on the Nvidia GPU temperature
 
 **Default Fan Curve**
 
@@ -27,6 +27,7 @@ PE R720 with dual tesla P100 (idrac version 2.65.65.65)
 
 - You have a Dell server and an Nvidia GPU (duh)
 - You need to be able to run the `nvidia-smi` command (aka have the nvidia drivers installed)
+- You have the `lm-sensors` apt package installed and can successfully query by using `sensors`
 - You need to have enabled IPMI over LAN in you IDRAC settings. On a 13th gen server this can be found under `Overview > IDRAC Settings > Network > IPMI Settings > Enable IPMI over LAN`
 
 You can find a list of IPMI commands to test it [here](https://www.dell.com/support/manuals/en-ca/open-server-manager/open_server_manager_2.0/ipmi-commands?guid=guid-0a26239a-fdd7-4d06-b4f1-be8e59d6ca7b)
